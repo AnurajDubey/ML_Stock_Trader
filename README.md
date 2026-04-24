@@ -110,7 +110,6 @@ ML_Stock_Trader/
 
 ## Running the Project
 
-This project is part of the Georgia Tech ML4T framework and requires the shared `util.py` and `data/` directory from the course environment. Run from the **parent directory**:
 
 ```bash
 # Run the full pipeline (ManualStrategy + StrategyLearner + both experiments)
