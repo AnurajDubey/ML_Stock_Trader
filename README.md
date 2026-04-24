@@ -71,21 +71,21 @@ All portfolio values are normalized to 1.0 at the start date for fair comparison
 
 **In-Sample (2008–2009)**
 
-![In-Sample](images/experiment1_in_sample.png)
+![In-Sample](results/experiment1_in_sample.png)
 
 **Out-of-Sample (2010–2011)**
 
-![Out-of-Sample](images/experiment1_out_of_sample.png)
+![Out-of-Sample](results/experiment1_out_of_sample.png)
 
 ### Experiment 2 — Impact of Market Impact on Strategy Behavior
 
 Examines how varying the **market impact parameter** affects the ML strategy's trading behavior and returns. Higher impact costs discourage frequent trading, causing the strategy to become more selective. This experiment highlights the sensitivity of learned policies to transaction cost assumptions.
 
-![Cumulative Returns](images/experiment2_cumulative_returns.png)
+![Cumulative Returns](results/experiment2_cumulative_returns.png)
 
-![Portfolio Values](images/experiment2_portfolio_values.png)
+![Portfolio Values](results/experiment2_portfolio_values.png)
 
-![Std Deviation](images/experiment2_std_deviation.png)
+![Std Deviation](results/experiment2_std_deviation.png)
 
 ---
 
@@ -103,7 +103,7 @@ ML_Stock_Trader/
 ├── experiment1.py          # ML vs. Manual vs. Benchmark comparison
 ├── experiment2.py          # Market impact sensitivity analysis
 ├── testproject.py          # Runs the full pipeline end-to-end
-└── images/                 # Output charts from experiments
+└── results/                 # Output charts from experiments
 ```
 
 ---
@@ -121,7 +121,7 @@ python ML_Stock_Trader/experiment1.py
 python ML_Stock_Trader/experiment2.py
 ```
 
-Output charts are saved to `ML_Stock_Trader/images/`.
+Output charts are saved to `ML_Stock_Trader/results/`.
 
 ---
 
