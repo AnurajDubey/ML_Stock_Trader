@@ -2,7 +2,7 @@
 
 An ML-driven stock trading system that learns buy/sell/hold signals directly from price data using a custom-built ensemble learning pipeline. Rather than relying on hand-crafted rules, the system trains a model on technical indicators and historical returns, then evaluates its performance against both a manual rule-based strategy and a buy-and-hold benchmark.
 
-*If curious to learn more, code is available upon request for recruiters and potential employers.*
+If curious to learn more, code is available upon request for recruiters and potential employers.
 ---
 
 ## How It Works
